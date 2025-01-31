@@ -4,9 +4,9 @@
 
 ![Developer Portfolio](https://github.com/sayyedcoding/portfolio/blob/master/Developer%20Portfolio%20Website.png)
 
-Hi there! I'm Vijay, and this is my portfolio website code built with HTML, CSS, Bootstrap, and a touch of JavaScript. Let's dive into the features:
+Hi there! I'm Sayyed Taha, and this is my portfolio website code built with HTML, CSS, Bootstrap, and a touch of JavaScript. Let's dive into the features:
 
-> But, wait! Have any cool project ideas to share or need some work done? Just shoot me an email at sayyedtaha02@gmail.com. Let's chat over a virtual coffee! 😊 And if you're wondering why you should consider working together, check out projects like **PfpFinder** (https://pfpfinder.com) (where you can find the best pfps - almost 50k+!), **Alt Text Generator** (https://alttext.tech/) (just upload an image to see what it is!), **Discord Lookup API** (https://github.com/itsvijaysingh/Discord-Lookup-API), and more! Check out my complete profile here: https://github.com/itsvijaysingh
+> But, wait! Have any cool project ideas to share or need some work done? Just shoot me an email at sayyedtaha02@gmail.com. Let's chat over a virtual coffee! 😊 And if you're wondering why you should consider working together, check out projects like **Umerbazaarpk** (https://umerbazaar.pk/) (where you can find the best products ), **Bikekart** ([sayyedcoding/BikeKart](https://sayyedcoding.github.io/BikeKart/)) , more! Check out my complete[ profile here](https://github.com/sayyedcoding): 
 
 ## **Portfolio Features:**
 
@@ -28,7 +28,7 @@ Hi there! I'm Vijay, and this is my portfolio website code built with HTML, CSS,
 * Bootstrap Icons
 
 ## **Want to see it live? 👀**
-
+[Demo](https://github.com/sayyedcoding/portfolio)
 ## **Why This Web Developer Portfolio Stands Out**
 
 * **User Experience Focus:**  The dual theme and speed optimizations show I care about delivering a great experience.
