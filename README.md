@@ -2,8 +2,7 @@
 
 > See live demo:    |  Feel free to use but **credit appreciated** and a **⭐** to repo ;)
 
-![Developer Portoflio]([https://github.com/sayyedcoding/portfolio/blob/main/Developer%20Portolio%20Website.png]
-
+![Developer Portfolio](https://github.com/sayyedcoding/portfolio/blob/master/Developer%20Portfolio%20Website.png)
 
 Hi there! I'm Vijay, and this is my portfolio website code built with HTML, CSS, Bootstrap, and a touch of JavaScript. Let's dive into the features:
 
