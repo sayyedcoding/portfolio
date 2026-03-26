@@ -3,166 +3,715 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Primary Meta Tags -->
-    <title>Sayyed Taha - Web Developer</title>
-
-    <meta name="title" content="Sayyed Taha -  Web Developer">
-    <meta name="description" content="Sayyed Taha - Passionate  Web Developer creating beautiful and responsive websites. Explore my portfolio and blog for tech insights.">
-    <meta name="keywords" content="Sayyed Taha, Web Developer,  Developer, Portfolio, Blog, Tech Insights">
-    <meta name="author" content="Sayyed Taha">
-
-    <!-- Open Graph Meta Tags / Facebook -->
-    <meta property="og:title" content="Sayyed Taha -  Web Developer">
-    <meta property="og:description" content="Passionate about crafting beautiful and responsive websites. Explore my portfolio and blog for tech insights.">
-    <meta property="og:image" content="assets/images/banner.webp">
-    <meta property="og:url" content="/">
-    <meta property="og:type" content="website">
-
-    <!-- Twitter Card Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Sayyed Taha -  Web Developer">
-    <meta name="twitter:description" content="Passionate about crafting beautiful and responsive websites. Explore my portfolio and blog for tech insights.">
-    <meta name="twitter:image" content="assets/images/banner.webp">
-
-    <!-- Favicon -->
-    <link rel="icon" href="assets/images/ST.png" type="image/x-icon">
-
-    <!-- Google Fonts: Rubik -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik&amp;display=swap">
-
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="assets/css/aos.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-
-    <!-- Preload Important resources -->
-    <link rel="preload" href="assets/css/aos.css" as="style" >
-    <link rel="preload" href="assets/css/owl.carousel.min.css" as="style" >
-    <link rel="preload" href="assets/css/bootstrap.min.css" as="style" />
-    <link rel="preload" href="assets/css/bootstrap-icons.min.css" as="style" />
-    <link rel="preload" href="assets/css/style.css" as="style" />
-
-    <!-- MS-Clarity Analytics -->
-    <script type="text/javascript">
-        (function(c,l,a,r,i,t,y){
-            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-        })(window, document, "clarity", "script", "phycesbqlg");
-    </script>
-
+    <title>Sayyed Taha | Full Stack Developer & Cybersecurity Enthusiast</title>
+    <meta name="description" content="Portfolio of Sayyed Taha — Full Stack Web Developer, Cybersecurity Researcher, and MLSA at Bahria University.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+<body>
+    <!-- Intro / Preloader -->
+    <div id="intro-screen">
+        <div class="intro-particles" id="introParticles"></div>
+        <div class="intro-content">
+            <!-- Coder SVG Illustration -->
+            <div class="intro-illustration">
+                <svg viewBox="0 0 500 420" xmlns="http://www.w3.org/2000/svg" class="coder-svg">
+                    <defs>
+                        <radialGradient id="screenGlow" cx="50%" cy="50%" r="50%">
+                            <stop offset="0%" stop-color="#6366f1" stop-opacity="0.5"/>
+                            <stop offset="100%" stop-color="#6366f1" stop-opacity="0"/>
+                        </radialGradient>
+                        <radialGradient id="faceGlow" cx="50%" cy="40%" r="55%">
+                            <stop offset="0%" stop-color="#6366f1" stop-opacity="0.25"/>
+                            <stop offset="100%" stop-color="transparent"/>
+                        </radialGradient>
+                        <linearGradient id="hoodGrad" x1="0" y1="0" x2="0" y2="1">
+                            <stop offset="0%" stop-color="#1a1a2e"/>
+                            <stop offset="100%" stop-color="#0a0a14"/>
+                        </linearGradient>
+                        <clipPath id="screenClip">
+                            <rect x="178" y="168" width="144" height="94" rx="3"/>
+                        </clipPath>
+                        <filter id="glow">
+                            <feGaussianBlur stdDeviation="3" result="blur"/>
+                            <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+                        </filter>
+                        <filter id="softGlow">
+                            <feGaussianBlur stdDeviation="6"/>
+                        </filter>
+                    </defs>
 
-<body data-bs-theme="dark" data-bs-spy="scroll" data-bs-target="#navbar">
+                    <!-- Desk -->
+                    <rect x="90" y="310" width="320" height="10" rx="5" fill="#1a1a2e"/>
+                    <rect x="120" y="320" width="8" height="65" rx="3" fill="#151525"/>
+                    <rect x="372" y="320" width="8" height="65" rx="3" fill="#151525"/>
+                    <rect x="105" y="382" width="50" height="5" rx="2" fill="#151525"/>
+                    <rect x="345" y="382" width="50" height="5" rx="2" fill="#151525"/>
 
-    <!-- Preloader -->
-    <div id="preloader"></div>
-    
-    <!-- Header -->
-    <header id="header">
-        <nav id="navbar" class="navbar navbar-expand-md">
-            <div class="container">
-                <a href="/" class="navbar-brand logo">
-                    <span><</span>
-                    <span class="logo-name">Sayyed Taha</span>
-                    <span>/></span>
+                    <!-- Monitor -->
+                    <rect x="168" y="155" width="164" height="115" rx="8" fill="#0a0a14" stroke="#1e293b" stroke-width="2"/>
+                    <rect x="178" y="168" width="144" height="94" rx="3" fill="#0c0c18" class="monitor-screen"/>
+                    <!-- Monitor stand -->
+                    <rect x="237" y="270" width="26" height="35" rx="2" fill="#151525"/>
+                    <rect x="215" y="302" width="70" height="6" rx="3" fill="#1a1a2e"/>
+                    <!-- Screen glow ambient -->
+                    <ellipse cx="250" cy="240" rx="120" ry="80" fill="url(#screenGlow)" opacity="0.2" filter="url(#softGlow)"/>
+
+                    <!-- Code on screen — hacker terminal style -->
+                    <g clip-path="url(#screenClip)" class="code-lines">
+                        <!-- Prompt lines -->
+                        <text x="184" y="182" font-family="monospace" font-size="6" fill="#22c55e" class="code-line cl-1">$ ssh root@192.168.1.1</text>
+                        <text x="184" y="192" font-family="monospace" font-size="6" fill="#475569" class="code-line cl-2">Connected. Welcome back.</text>
+                        <text x="184" y="202" font-family="monospace" font-size="6" fill="#22c55e" class="code-line cl-3">$ nmap -sV --script vuln 10.0.0.0/24</text>
+                        <text x="184" y="212" font-family="monospace" font-size="6" fill="#6366f1" class="code-line cl-4">Starting Nmap 7.94...</text>
+                        <text x="184" y="222" font-family="monospace" font-size="6" fill="#475569" class="code-line cl-5">PORT   STATE  SERVICE  VERSION</text>
+                        <text x="184" y="232" font-family="monospace" font-size="6" fill="#818cf8" class="code-line cl-6">22/tcp open   ssh      OpenSSH 8.9</text>
+                        <text x="184" y="242" font-family="monospace" font-size="6" fill="#818cf8" class="code-line cl-7">80/tcp open   http     nginx 1.18</text>
+                        <text x="184" y="252" font-family="monospace" font-size="6" fill="#22c55e" class="code-line cl-8">$ python3 sentinel_ai.py --deploy</text>
+                        <!-- Blinking cursor -->
+                        <rect x="310" y="248" width="5" height="7" fill="#22c55e" opacity="0.9">
+                            <animate attributeName="opacity" values="0.9;0;0.9" dur="1s" repeatCount="indefinite"/>
+                        </rect>
+                    </g>
+
+                    <!-- Matrix rain effect columns -->
+                    <g opacity="0.06" font-family="monospace" font-size="8" fill="#22c55e">
+                        <text x="60" y="100"><tspan dy="0">0</tspan><tspan x="60" dy="12">1</tspan><tspan x="60" dy="12">1</tspan><tspan x="60" dy="12">0</tspan><tspan x="60" dy="12">1</tspan></text>
+                        <text x="420" y="80"><tspan dy="0">1</tspan><tspan x="420" dy="12">0</tspan><tspan x="420" dy="12">0</tspan><tspan x="420" dy="12">1</tspan><tspan x="420" dy="12">0</tspan><tspan x="420" dy="12">1</tspan></text>
+                        <text x="440" y="200"><tspan dy="0">0</tspan><tspan x="440" dy="12">1</tspan><tspan x="440" dy="12">1</tspan><tspan x="440" dy="12">0</tspan></text>
+                        <text x="40" y="250"><tspan dy="0">1</tspan><tspan x="40" dy="12">0</tspan><tspan x="40" dy="12">1</tspan><tspan x="40" dy="12">1</tspan></text>
+                        <text x="460" y="300"><tspan dy="0">0</tspan><tspan x="460" dy="12">1</tspan><tspan x="460" dy="12">0</tspan></text>
+                    </g>
+
+                    <!-- Hooded figure — dark silhouette, no face visible -->
+                    <!-- Hood outer shape -->
+                    <path d="M218 110 Q220 70 250 60 Q280 70 282 110 L290 155 Q290 165 280 170 L270 290 L230 290 L220 170 Q210 165 210 155 Z" fill="url(#hoodGrad)"/>
+                    <!-- Hood inner shadow — deep dark face area -->
+                    <ellipse cx="250" cy="120" rx="22" ry="24" fill="#050508"/>
+                    <!-- Faint glow on face from screen -->
+                    <ellipse cx="250" cy="120" rx="18" ry="20" fill="url(#faceGlow)"/>
+                    <!-- Glowing eyes -->
+                    <circle cx="242" cy="118" r="2.5" fill="#6366f1" filter="url(#glow)" class="code-line cl-9">
+                        <animate attributeName="opacity" values="1;0.4;1" dur="3s" repeatCount="indefinite"/>
+                    </circle>
+                    <circle cx="258" cy="118" r="2.5" fill="#6366f1" filter="url(#glow)" class="code-line cl-10">
+                        <animate attributeName="opacity" values="1;0.4;1" dur="3s" repeatCount="indefinite" begin="0.3s"/>
+                    </circle>
+
+                    <!-- Body / shoulders — dark hoodie -->
+                    <path d="M215 170 Q210 168 205 175 L195 290 L305 290 L295 175 Q290 168 285 170" fill="#0f0f1e"/>
+                    <!-- Hoodie center line -->
+                    <line x1="250" y1="155" x2="250" y2="290" stroke="#1a1a2e" stroke-width="1.5"/>
+                    <!-- Hoodie strings -->
+                    <line x1="244" y1="155" x2="240" y2="185" stroke="#1e293b" stroke-width="1"/>
+                    <line x1="256" y1="155" x2="260" y2="185" stroke="#1e293b" stroke-width="1"/>
+                    <circle cx="240" cy="186" r="2" fill="#1e293b"/>
+                    <circle cx="260" cy="186" r="2" fill="#1e293b"/>
+
+                    <!-- Arms dark -->
+                    <path d="M215 195 Q185 230 180 275 Q178 285 185 290" fill="none" stroke="#0f0f1e" stroke-width="14" stroke-linecap="round" class="left-arm"/>
+                    <path d="M285 195 Q315 230 320 275 Q322 285 315 290" fill="none" stroke="#0f0f1e" stroke-width="14" stroke-linecap="round" class="right-arm"/>
+                    <!-- Hands — dark gloves -->
+                    <circle cx="185" cy="292" r="7" fill="#0a0a14" class="left-hand"/>
+                    <circle cx="315" cy="292" r="7" fill="#0a0a14" class="right-hand"/>
+
+                    <!-- Keyboard with glow -->
+                    <rect x="160" y="294" width="180" height="14" rx="4" fill="#151525" stroke="#1e293b" stroke-width="1"/>
+                    <g class="keyboard-keys">
+                        <rect x="168" y="297" width="8" height="6" rx="1" fill="#1e293b"/>
+                        <rect x="179" y="297" width="8" height="6" rx="1" fill="#1e293b"/>
+                        <rect x="190" y="297" width="8" height="6" rx="1" fill="#1e293b"/>
+                        <rect x="201" y="297" width="8" height="6" rx="1" fill="#1e293b"/>
+                        <rect x="212" y="297" width="8" height="6" rx="1" fill="#1e293b"/>
+                        <rect x="223" y="297" width="8" height="6" rx="1" fill="#6366f1" opacity="0.5"/>
+                        <rect x="234" y="297" width="8" height="6" rx="1" fill="#1e293b"/>
+                        <rect x="245" y="297" width="8" height="6" rx="1" fill="#6366f1" opacity="0.3"/>
+                        <rect x="256" y="297" width="8" height="6" rx="1" fill="#1e293b"/>
+                        <rect x="267" y="297" width="8" height="6" rx="1" fill="#1e293b"/>
+                        <rect x="278" y="297" width="8" height="6" rx="1" fill="#6366f1" opacity="0.4"/>
+                        <rect x="289" y="297" width="8" height="6" rx="1" fill="#1e293b"/>
+                        <rect x="300" y="297" width="8" height="6" rx="1" fill="#1e293b"/>
+                        <rect x="311" y="297" width="8" height="6" rx="1" fill="#1e293b"/>
+                        <rect x="322" y="297" width="8" height="6" rx="1" fill="#1e293b"/>
+                    </g>
+
+                    <!-- Coffee mug — dark -->
+                    <rect x="365" y="282" width="22" height="28" rx="4" fill="#1a1a2e" stroke="#1e293b" stroke-width="1"/>
+                    <path d="M387 288 Q397 288 397 296 Q397 304 387 304" fill="none" stroke="#1e293b" stroke-width="2"/>
+                    <!-- Steam -->
+                    <g class="steam">
+                        <path d="M370 278 Q368 265 372 255" fill="none" stroke="#334155" stroke-width="1.5" opacity="0.4" class="steam-1"/>
+                        <path d="M378 278 Q380 262 376 250" fill="none" stroke="#334155" stroke-width="1.5" opacity="0.3" class="steam-2"/>
+                        <path d="M384 278 Q382 268 385 258" fill="none" stroke="#334155" stroke-width="1.5" opacity="0.2" class="steam-3"/>
+                    </g>
+
+                    <!-- Second monitor (smaller, angled) -->
+                    <g transform="rotate(-12, 95, 240)">
+                        <rect x="60" y="195" width="75" height="55" rx="5" fill="#0a0a14" stroke="#1e293b" stroke-width="1.5"/>
+                        <rect x="66" y="201" width="63" height="43" rx="2" fill="#0c0c18"/>
+                        <!-- Mini code lines -->
+                        <rect x="70" y="207" width="30" height="2.5" rx="1" fill="#6366f1" opacity="0.4" class="code-line cl-11"/>
+                        <rect x="70" y="213" width="45" height="2.5" rx="1" fill="#22c55e" opacity="0.3"/>
+                        <rect x="70" y="219" width="35" height="2.5" rx="1" fill="#818cf8" opacity="0.3"/>
+                        <rect x="70" y="225" width="50" height="2.5" rx="1" fill="#22c55e" opacity="0.25"/>
+                        <rect x="70" y="231" width="28" height="2.5" rx="1" fill="#6366f1" opacity="0.35"/>
+                        <rect x="70" y="237" width="40" height="2.5" rx="1" fill="#475569" opacity="0.3"/>
+                    </g>
+                    <!-- Second monitor stand -->
+                    <rect x="82" y="260" width="18" height="20" rx="2" fill="#151525" transform="rotate(-12, 95, 270)"/>
+
+                    <!-- Subtle hex grid background -->
+                    <g opacity="0.025" stroke="#6366f1" stroke-width="0.5" fill="none">
+                        <polygon points="50,50 65,42 80,50 80,66 65,74 50,66"/>
+                        <polygon points="80,50 95,42 110,50 110,66 95,74 80,66"/>
+                        <polygon points="390,80 405,72 420,80 420,96 405,104 390,96"/>
+                        <polygon points="420,80 435,72 450,80 450,96 435,104 420,96"/>
+                        <polygon points="30,300 45,292 60,300 60,316 45,324 30,316"/>
+                        <polygon points="430,340 445,332 460,340 460,356 445,364 430,356"/>
+                    </g>
+                </svg>
+            </div>
+            <!-- Name Reveal -->
+            <div class="intro-name">
+                <div class="intro-name-line">
+                    <span class="intro-letter" style="--i:0">S</span>
+                    <span class="intro-letter" style="--i:1">a</span>
+                    <span class="intro-letter" style="--i:2">y</span>
+                    <span class="intro-letter" style="--i:3">y</span>
+                    <span class="intro-letter" style="--i:4">e</span>
+                    <span class="intro-letter" style="--i:5">d</span>
+                </div>
+                <div class="intro-name-line">
+                    <span class="intro-letter accent" style="--i:6">T</span>
+                    <span class="intro-letter accent" style="--i:7">a</span>
+                    <span class="intro-letter accent" style="--i:8">h</span>
+                    <span class="intro-letter accent" style="--i:9">a</span>
+                </div>
+            </div>
+            <div class="intro-tagline">
+                <span>Full Stack Developer</span>
+                <span class="intro-dot"></span>
+                <span>Cybersecurity Enthusiast</span>
+            </div>
+            <div class="intro-loader-bar">
+                <div class="intro-loader-fill" id="introLoaderFill"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cursor -->
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-outline" id="cursorOutline"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-dot"></span>
+                <span class="logo-text">Sayyed</span><span class="logo-accent">Taha</span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="mailto:sayyedtaha02@gmail.com" class="btn btn-primary btn-sm">Hire Me</a>
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <canvas id="particleCanvas"></canvas>
+        <div class="hero-content">
+            <div class="hero-badge" data-animate="fade-up">
+                <span class="badge-dot"></span> Available for Opportunities
+            </div>
+            <h1 data-animate="fade-up" data-delay="100">
+                Hi, I'm <span class="gradient-text">Sayyed Taha</span>
+            </h1>
+            <div class="typewriter-wrapper" data-animate="fade-up" data-delay="200">
+                <span class="typewriter-prefix">I build </span>
+                <span class="typewriter" id="typewriter"></span>
+                <span class="typewriter-cursor">|</span>
+            </div>
+            <p class="hero-description" data-animate="fade-up" data-delay="300">
+                Full Stack Developer & Cybersecurity Researcher crafting secure, scalable web applications 
+                and AI-powered solutions. Currently pursuing BSCS at Bahria University.
+            </p>
+            <div class="hero-cta" data-animate="fade-up" data-delay="400">
+                <a href="#projects" class="btn btn-primary btn-lg">
+                    <span>View My Work</span>
+                    <i class="fas fa-arrow-right"></i>
                 </a>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarMenu">
-                    <div class="offcanvas-header">
-                        <a href="/" class="offcanvas-title navbar-brand logo" id="offcanvasNavbarMenu" data-aos="fade-down" data-aos-delay="600">
-                            <span><</span>
-                            <span class="logo-name">Sayyed Taha</span>
-                            <span>/></span>
+                <a href="#contact" class="btn btn-outline btn-lg">
+                    <span>Get in Touch</span>
+                </a>
+            </div>
+            <div class="hero-stats" data-animate="fade-up" data-delay="500">
+                <div class="stat">
+                    <span class="stat-number" data-count="7">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">Projects</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" data-count="2">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">Years Exp</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" data-count="10">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">Technologies</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span class="scroll-text">Scroll</span>
+            <div class="scroll-line-track">
+                <div class="scroll-line-fill"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag"><span class="tag-icon"><i class="fas fa-user"></i></span> About Me</span>
+                <h2 class="section-title">Get To Know Me</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-image" data-animate="fade-right">
+                    <div class="image-frame">
+                        <div class="image-placeholder">
+                            <i class="fas fa-user-astronaut"></i>
+                        </div>
+                        <div class="image-border"></div>
+                    </div>
+                    <div class="about-float-card card-1">
+                        <i class="fas fa-shield-halved"></i>
+                        <span>Cybersecurity</span>
+                    </div>
+                    <div class="about-float-card card-2">
+                        <i class="fas fa-code"></i>
+                        <span>Full Stack</span>
+                    </div>
+                </div>
+                <div class="about-content" data-animate="fade-left">
+                    <h3>A passionate developer from <span class="gradient-text">Pakistan</span></h3>
+                    <p>
+                        I'm a results-oriented Full Stack Web Developer and Cybersecurity Researcher 
+                        currently in my senior year at <strong>Bahria University</strong>, Islamabad. I specialize 
+                        in building scalable web applications using React.js, Node.js, Python (Django/Flask), 
+                        and PHP.
+                    </p>
+                    <p>
+                        As a <strong>Microsoft Learn Student Ambassador (MLSA)</strong>, I mentor fellow students 
+                        and facilitate workshops on modern web technologies. My current focus is on my Final Year 
+                        Project — <strong>Sentinel AI</strong>, an AI-powered cybersecurity solution.
+                    </p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Rawalpindi, Pakistan</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>BSCS — Bahria University</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-briefcase"></i>
+                            <span>Developer @ Arch Technologies</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-language"></i>
+                            <span>English & Urdu</span>
+                        </div>
+                    </div>
+                    <div class="about-cta">
+                        <a href="https://wa.me/923325228332" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-whatsapp">
+                            <i class="fab fa-whatsapp"></i> WhatsApp
                         </a>
-                        <button type="button" class="navbar-toggler" data-bs-dismiss="offcanvas" aria-label="Close Navigation Menu"><i class="bi bi-x toggle-icon"></i></button>
+                        <a href="mailto:sayyedtaha02@gmail.com" class="btn btn-outline">
+                            <i class="fas fa-envelope"></i> Email Me
+                        </a>
                     </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav nav-underline justify-content-end flex-grow-1">
-                            <li class="nav-item" data-aos="fade-down" data-aos-delay="500" data-bs-dismiss="offcanvas"><a href="#hero" class="nav-link active" aria-current="page">Home</a></li>
-                            <li class="nav-item" data-aos="fade-down" data-aos-delay="600" data-bs-dismiss="offcanvas"><a href="#about" class="nav-link">About</a></li>
-                            <li class="nav-item" data-aos="fade-down" data-aos-delay="700" data-bs-dismiss="offcanvas" ><a href="#skills" class="nav-link">Skills</a></li>
-                            <li class="nav-item" data-aos="fade-down" data-aos-delay="800" data-bs-dismiss="offcanvas"><a href="#projects" class="nav-link">Projects</a></li>
-                            <li class="nav-item" data-aos="fade-down" data-aos-delay="900" data-bs-dismiss="offcanvas"><a href="#blogs" class="nav-link">Blogs</a></li>
-                            <li class="nav-item" data-aos="fade-down" data-aos-delay="1000" data-bs-dismiss="offcanvas"><a href="#contact" class="nav-link">Contact</a></li>
+                    <div class="about-socials">
+                        <a href="https://www.linkedin.com/in/sayyed-taha-3a3647281" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="about-social-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/sayyedcoding" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="about-social-icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100037224864236" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="about-social-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/_sayyedtaha" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="about-social-icon">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">&lt;skills&gt;</span>
+                <h2 class="section-title">Tech Arsenal</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-grid">
+                <!-- Frontend -->
+                <div class="skill-category" data-animate="fade-up" data-delay="0">
+                    <div class="skill-category-header">
+                        <div class="skill-icon-box frontend">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h3>Frontend</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fab fa-react"></i> React.js</span>
+                        <span class="skill-tag"><i class="fab fa-js-square"></i> JavaScript (ES6+)</span>
+                        <span class="skill-tag"><i class="fab fa-html5"></i> HTML5</span>
+                        <span class="skill-tag"><i class="fab fa-css3-alt"></i> CSS3</span>
+                        <span class="skill-tag"><i class="fas fa-wind"></i> Tailwind CSS</span>
+                        <span class="skill-tag"><i class="fab fa-bootstrap"></i> Bootstrap</span>
+                    </div>
+                </div>
+                <!-- Backend -->
+                <div class="skill-category" data-animate="fade-up" data-delay="100">
+                    <div class="skill-category-header">
+                        <div class="skill-icon-box backend">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h3>Backend</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fab fa-node-js"></i> Node.js</span>
+                        <span class="skill-tag"><i class="fab fa-python"></i> Python</span>
+                        <span class="skill-tag"><i class="fas fa-fire"></i> Django</span>
+                        <span class="skill-tag"><i class="fas fa-flask"></i> Flask</span>
+                        <span class="skill-tag"><i class="fab fa-php"></i> PHP</span>
+                        <span class="skill-tag"><i class="fas fa-code"></i> C++</span>
+                    </div>
+                </div>
+                <!-- Database & Tools -->
+                <div class="skill-category" data-animate="fade-up" data-delay="200">
+                    <div class="skill-category-header">
+                        <div class="skill-icon-box database">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3>Database & Tools</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fas fa-database"></i> SQL</span>
+                        <span class="skill-tag"><i class="fas fa-database"></i> SQLite</span>
+                        <span class="skill-tag"><i class="fab fa-git-alt"></i> Git & GitHub</span>
+                        <span class="skill-tag"><i class="fas fa-plug"></i> REST APIs</span>
+                        <span class="skill-tag"><i class="fas fa-paper-plane"></i> Postman</span>
+                        <span class="skill-tag"><i class="fas fa-code"></i> VS Code</span>
+                    </div>
+                </div>
+                <!-- Specializations -->
+                <div class="skill-category" data-animate="fade-up" data-delay="300">
+                    <div class="skill-category-header">
+                        <div class="skill-icon-box special">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Specializations</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fas fa-shield-halved"></i> Cybersecurity</span>
+                        <span class="skill-tag"><i class="fas fa-brain"></i> AI / ML</span>
+                        <span class="skill-tag"><i class="fas fa-eye"></i> Computer Vision</span>
+                        <span class="skill-tag"><i class="fas fa-chart-line"></i> MQL5 Trading</span>
+                        <span class="skill-tag"><i class="fab fa-shopify"></i> Shopify</span>
+                        <span class="skill-tag"><i class="fab fa-wordpress"></i> WordPress</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag"><span class="tag-icon"><i class="fas fa-rocket"></i></span> Projects</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <!-- FYP Spotlight -->
+            <div class="fyp-spotlight" data-animate="fade-up">
+                <div class="fyp-badge">
+                    <i class="fas fa-star"></i> Final Year Project — In Progress
+                </div>
+                <div class="fyp-content">
+                    <div class="fyp-info">
+                        <h3><i class="fas fa-shield-halved"></i> Sentinel AI</h3>
+                        <p class="fyp-subtitle">AI-Powered Cybersecurity Threat Detection System</p>
+                        <p>
+                            An advanced cybersecurity platform leveraging Artificial Intelligence and Machine Learning 
+                            to detect, analyze, and respond to security threats in real time. Sentinel AI combines 
+                            deep learning models with behavioral analysis to identify anomalies, predict potential 
+                            attack vectors, and provide actionable security intelligence.
+                        </p>
+                        <div class="fyp-tech">
+                            <span>Python</span>
+                            <span>Machine Learning</span>
+                            <span>Deep Learning</span>
+                            <span>Cybersecurity</span>
+                            <span>Threat Intelligence</span>
+                            <span>Real-time Analysis</span>
+                        </div>
+                    </div>
+                    <div class="fyp-visual">
+                        <div class="shield-animation">
+                            <div class="shield-ring ring-1"></div>
+                            <div class="shield-ring ring-2"></div>
+                            <div class="shield-ring ring-3"></div>
+                            <i class="fas fa-shield-halved shield-icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Cards -->
+            <div class="projects-grid">
+                <!-- AeroSense -->
+                <div class="project-card" data-animate="fade-up" data-delay="0">
+                    <div class="project-card-header">
+                        <div class="project-icon">
+                            <i class="fas fa-cloud-sun"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" aria-label="View source"><i class="fab fa-github"></i></a>
+                            <a href="#" aria-label="Live demo"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h3>AeroSense</h3>
+                    <p class="project-type">AI-Powered Environmental Dashboard</p>
+                    <p>Comprehensive web dashboard visualizing real-time air quality data and ML-powered 
+                       forecasts with a responsive UI for seamless cross-device experience.</p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Django</span>
+                        <span>Python</span>
+                        <span>Machine Learning</span>
+                    </div>
+                </div>
+
+                <!-- BlogSphere -->
+                <div class="project-card" data-animate="fade-up" data-delay="100">
+                    <div class="project-card-header">
+                        <div class="project-icon">
+                            <i class="fas fa-blog"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" aria-label="View source"><i class="fab fa-github"></i></a>
+                            <a href="#" aria-label="Live demo"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h3>BlogSphere</h3>
+                    <p class="project-type">Content Management System</p>
+                    <p>Feature-rich blogging platform with user authentication, full CRUD operations, 
+                       interactive comments, and optimized database queries for fast performance.</p>
+                    <div class="project-tech">
+                        <span>Django</span>
+                        <span>JavaScript</span>
+                        <span>HTML/CSS</span>
+                        <span>SQLite</span>
+                    </div>
+                </div>
+
+                <!-- Smart Attendance -->
+                <div class="project-card" data-animate="fade-up" data-delay="200">
+                    <div class="project-card-header">
+                        <div class="project-icon">
+                            <i class="fas fa-face-smile"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" aria-label="View source"><i class="fab fa-github"></i></a>
+                            <a href="#" aria-label="Live demo"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h3>Smart Attendance</h3>
+                    <p class="project-type">Face Recognition System</p>
+                    <p>Automated attendance solution using computer vision with a Flask web interface 
+                       displaying real-time attendance logs, eliminating manual entry entirely.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Flask</span>
+                        <span>OpenCV</span>
+                        <span>Computer Vision</span>
+                    </div>
+                </div>
+
+                <!-- Hajras Legacy -->
+                <div class="project-card" data-animate="fade-up" data-delay="300">
+                    <div class="project-card-header">
+                        <div class="project-icon">
+                            <i class="fas fa-shopping-bag"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" aria-label="Live site"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h3>Hajras Legacy</h3>
+                    <p class="project-type">E-Commerce Store</p>
+                    <p>Fully functional Shopify e-commerce store with custom design, responsive layout, 
+                       payment integration, and optimized product management.</p>
+                    <div class="project-tech">
+                        <span>Shopify</span>
+                        <span>E-Commerce</span>
+                        <span>UI/UX</span>
+                        <span>SEO</span>
+                    </div>
+                </div>
+
+                <!-- Algo Trading -->
+                <div class="project-card" data-animate="fade-up" data-delay="400">
+                    <div class="project-card-header">
+                        <div class="project-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" aria-label="View source"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>Algo Trading Bots</h3>
+                    <p class="project-type">Automated Trading System</p>
+                    <p>Automated trading bots implementing Smart Money Concepts (SMC) with Python-based 
+                       signal generation and data analysis for market liquidity identification.</p>
+                    <div class="project-tech">
+                        <span>MQL5</span>
+                        <span>Python</span>
+                        <span>MT5</span>
+                        <span>Automation</span>
+                    </div>
+                </div>
+
+                <!-- Traffic Simulation -->
+                <div class="project-card" data-animate="fade-up" data-delay="500">
+                    <div class="project-card-header">
+                        <div class="project-icon">
+                            <i class="fas fa-traffic-light"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" aria-label="View source"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>Traffic Simulation</h3>
+                    <p class="project-type">Multi-threaded System</p>
+                    <p>Complex traffic flow simulator built in C using semaphores and multi-threading 
+                       to manage concurrent processes and optimize system performance.</p>
+                    <div class="project-tech">
+                        <span>C</span>
+                        <span>Semaphores</span>
+                        <span>Multi-threading</span>
+                        <span>Systems</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section experience">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag"><span class="tag-icon"><i class="fas fa-briefcase"></i></span> Experience</span>
+                <h2 class="section-title">Work Experience</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-animate="fade-up">
+                    <div class="timeline-dot current"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Full Stack Web Developer</h3>
+                                <p class="timeline-company">
+                                    <i class="fas fa-building"></i> Arch Technologies — Islamabad, Pakistan
+                                </p>
+                            </div>
+                            <span class="timeline-date">
+                                <i class="fas fa-calendar"></i> Jul 2025 — Present
+                            </span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Develop robust full-stack web applications using PHP and Python for client deliverables</li>
+                            <li>Design and optimize database schemas ensuring data integrity and high performance</li>
+                            <li>Implement automation tools to streamline development workflows, reducing manual tasks</li>
+                            <li>Collaborate with cross-functional teams to translate client requirements into technical specifications</li>
                         </ul>
+                        <div class="timeline-tags">
+                            <span>PHP</span><span>Python</span><span>SQL</span><span>Automation</span>
+                        </div>
                     </div>
                 </div>
-                <button class="btn border-0" id="switchTheme" data-aos="fade-down" data-aos-delay="600"><i class="bi bi-brightness-high-fill"></i></button>
-                <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle Navigation Menu" data-aos="fade-down" data-aos-delay="600"><i class="bi bi-list toggle-icon"></i></button>
-            </div>
-        </nav>
-    </header>
 
-    <!-- Hero -->
-    <section id="hero">
-        <div class="container">     
-            <div class="row about-content">
-                <div class="col-lg-5 order-lg-2">
-                    <div class="hero-portrait">
-                        <div class="pic" data-aos="fade-up" data-aos-delay="600"></div>
+                <div class="timeline-item" data-animate="fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Vice President</h3>
+                                <p class="timeline-company">
+                                    <i class="fas fa-hand-holding-heart"></i> The Youth Trust — Pakistan
+                                </p>
+                            </div>
+                            <span class="timeline-date">
+                                <i class="fas fa-calendar"></i> Aug 2024 — Jul 2025
+                            </span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Led strategic initiatives and community outreach programs for social impact projects</li>
+                            <li>Managed operational workflows and mentored team members to achieve organizational goals</li>
+                            <li>Oversaw the execution of community events, ensuring effective resource management</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span>Leadership</span><span>Mentoring</span><span>Strategy</span>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-7 order-lg-1 hero-content">
-                    <span class="h3" data-aos="fade-up" data-aos-delay="0">Hello, I'm</span>
-                    <h1 class="name" data-aos="fade-up" data-aos-delay="200"><span>Sayyed Taha</h1>
-                    <button type="button" class="btn btn-sm mt-3 mb-3 btn-showcase"  data-aos="fade-up" data-aos-delay="400"><i class="bi bi-stars"></i>Web Developer</button>
-                    <p class="tagline mb-3" data-aos="fade-up" data-aos-delay="600">Started <span class="underline">unintentionally</span> with messy Discord bot templates in 2021. Now, creating beautiful and responsive websites and templates for everyone to explore! But this time <span class="underline">intentionally</span>.</p>
-                    <div class="social-icons pb-2 pt-2 mb-2">
-                        <a href="https://github.com/sayyedcoding" target="_blank" class="github" data-aos="fade-up" data-aos-delay="620"><i class="bi bi-github"></i></a>
-                        <a href="https://x.com/SayyedTaha14" target="_blank" class="twitter-x" data-aos="fade-up" data-aos-delay="64 0"><i class="bi bi-twitter-x"></i></a>
-                        <a href="https://www.instagram.com/_sayyedtaha" target="_blank" class="instagram" data-aos="fade-up" data-aos-delay="660"><i class="bi bi-instagram"></i></a>
-                        <a href="https://www.facebook.com/profile.php?id=100037224864236" target="_blank" class="facebook" data-aos="fade-up" data-aos-delay="680"><i class="bi bi-facebook"></i></a>
-                        <a href="https://www.linkedin.com/in/sayyed-taha-3a3647281" target="_blank" class="linkedin" data-aos="fade-up" data-aos-delay="690"><i class="bi bi-linkedin"></i></a>
-                        
-                    </div>
-                    <div class="d-flex call-to-action">
-                        <a href="#contact" data-aos="fade-up" data-aos-delay="700"><button type="button" class="btn me-4 primary-bg-btn"><i class="bi bi-envelope"></i> Contact Me</button></a>
-                        <a href="#projects" data-aos="fade-up" data-aos-delay="800"><button type="button" class="btn btn-light secondary-bg-btn">View Portfolio <i class="bi bi-arrow-up-right-circle"></i></button></a>
-                    </div>                    
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Things I Love -->
-    <section id="things-i-love">
-        <div class="container">
-            <h6 class="text-center"><span class="btn btn-sm theme-button theme-text">Interests</span></h6>
-            <h2 class="section-heading text-center">Things I Love</h2>
-            <div class="row justify-content-center pt-3 gy-4">
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" >
-                    <div class="card">
-                        <div class="circle-container">
-                            <div class="circle"><i class="bi bi-droplet-half"></i></div>
+                <div class="timeline-item" data-animate="fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Freelance Developer</h3>
+                                <p class="timeline-company">
+                                    <i class="fas fa-laptop-code"></i> Web & Database — Remote
+                                </p>
+                            </div>
+                            <span class="timeline-date">
+                                <i class="fas fa-calendar"></i> Oct 2023 — Dec 2023
+                            </span>
                         </div>
-                        <div class="card-body">
-                            <p class="card-title">Designing</p>
-                            <p class="card-text">I love designing. When I see something that needs improvement, I enjoy making it better visually. I pay attention to every detail, whether it's a graphic or a user interface. My goal is to create designs that catch the eye and inspire others.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" >
-                    <div class="card">
-                        <div class="circle-container">
-                            <div class="circle"><i class="bi bi-code-slash"></i></i></div>
-                        </div>
-                        <div class="card-body">
-                            <p class="card-title">Developing</p>
-                            <p class="card-text">After designing, I dive into development. Coding is where I bring designs to life, turning concepts into digital experiences. Each line of code reflects my vision for functionality and elegance, showcasing my commitment to excellence.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" >
-                    <div class="card">
-                        <div class="circle-container">
-                            <div class="circle"><i class="bi bi-cup-hot"></i></div>
-                        </div>
-                        <div class="card-body">
-                            <p class="card-title">Expanding</p>
-                            <p class="card-text">Expanding beyond creation, I optimize. From templates to full websites, I refine post-development. Leveraging blogging and basic SEO, I enhance visibility and impact online. Each step maximizes reach and effectiveness online.</p>
+                        <ul class="timeline-details">
+                            <li>Designed and launched "Hajraslegacy.com," a fully functional Shopify e-commerce store</li>
+                            <li>Built "Smart Attendance," a facial recognition tracking system eliminating manual entry</li>
+                            <li>Specialized in WordPress customization, responsive design, and database optimization</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span>Shopify</span><span>WordPress</span><span>Python</span><span>Freelance</span>
                         </div>
                     </div>
                 </div>
@@ -170,311 +719,38 @@
         </div>
     </section>
 
-
-    <!-- About Me -->
-    <section id="about">
+    <!-- Education Section -->
+    <section id="education" class="section education">
         <div class="container">
-            <h6 class="text-center"><span class="btn btn-sm theme-button theme-text">But who am I?</span></h6>
-            <h2 class="section-heading text-center">About Me</h2>
-            <p class="text-center muted-text mt-3 mb-4">My store in a nutshell ;)</p>
-            <div class="row justify-content-center" data-aos="fade-down" data-aos-delay="200">
-                <div class="col-lg-5 about-portrait">
-                    <img src="assets/images/portrait-2.webp" class="img-fluid pic" alt="About Me Portrait">
-                </div>
-                <div class="col-lg-7">
-                    <p class="bio">
-                        Hey there, I'm Sayyed Taha, a 22-year-old coding enthusiast from Pakistan. I'm currently doing part-time blogging with my full-time journey as a  web developer. My coding journey began with experimenting on Discord bots. Now, I'm pursuing a master's degree in computer applications to deepen my skills and passion for web development.
-                        </br></br>
-                        My main goal in coding is simple: to create things that look great and serve a purpose. Whether it's designing sleek designs or expanding web applications, I'm always exploring new ideas to make something awesome. Apart from coding, when I'm not coding or catching up on news, you can often find me immersed in blogging at Namesarc.
-                        </br></br>
-                        And yeah, I also write blogs on names ideas for business , i also write about the slogan ideas etc just for fun. If you're interested, you can check out my ideas blog, <a href="https://namesarc.com/" target="_blank">NamesArc</a>.</p>
-                </div>
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag"><span class="tag-icon"><i class="fas fa-graduation-cap"></i></span> Education</span>
+                <h2 class="section-title">Education</h2>
+                <div class="section-line"></div>
             </div>
-        </div>
-    </section>
-
-    <!-- Skills -->
-    <section id="skills">
-        <div class="container">
-            <h6 class="text-center"><span class="btn btn-sm theme-button theme-text">What do I know?</span></h6>
-            <h2 class="section-heading text-center">Skills</h2>
-            <p class="text-center muted-text mt-3 mb-4">Here are some of the technologies that are part of my current stack:</p>
-            <div class="row justify-content-center row-cols-2 row-cols-md-3 row-cols-lg-6 mt-4 gy-4 skills-container" data-aos="fade-up" data-aos-delay="200">
-                <div class="col">
-                    <div class="skill">
-                        <img class="skill-image" src="/assets/images/skills/HTML.svg" alt="HTML">
-                        <p class="skill-name">HTML</p>
-                    </div>
+            <div class="education-card" data-animate="fade-up">
+                <div class="edu-icon">
+                    <i class="fas fa-university"></i>
                 </div>
-                <div class="col">
-                    <div class="skill">
-                        <img class="skill-image" src="/assets/images/skills/CSS.svg" alt="CSS"/>
-                        <p class="skill-name">CSS</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="skill">
-                        <img class="skill-image" src="/assets/images/skills/JS.svg" alt="JavaScript">
-                        <p class="skill-name">JS</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="skill">
-                        <img class="skill-image" src="/assets/images/skills/NodeJS.svg" alt="NodeJS">
-                        <p class="skill-name">NodeJS</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="skill">
-                        <img class="skill-image" src="assets/images/skills/microsoft-sql-server-1.svg" alt="ExpressJS">
-                        <p class="skill-name">Sql</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="skill">
-                        <img class="skill-image" src="assets/images/skills/wordpress-icon-1.svg" alt="EJS">
-                        <p class="skill-name">Wordpress</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="skill">
-                        <img class="skill-image" src="/assets/images/skills/Bootstrap.svg" alt="Bootstrap">
-                        <p class="skill-name">Bootstrap</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="skill">
-                        <img class="skill-image" src="/assets/images/skills/C.svg" alt="C">
-                        <p class="skill-name">C</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="skill">
-                        <img class="skill-image" src="/assets/images/skills/Python.svg" alt="Python">
-                        <p class="skill-name">Python</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="skill">
-                        <img class="skill-image" src="/assets/images/skills/MongoDB.svg" alt="MongoDB">
-                        <p class="skill-name">MongoDB</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Tools -->
-    <section id="tools">
-        <div class="container">
-            <h6 class="text-center"><span class="btn btn-sm theme-button theme-text">What I uses?</span></h6>
-            <h2 class="section-heading text-center">Tools</h2>
-            <p class="text-center muted-text mt-3 mb-4">Tech stack known? Here are tools that I runs:</p>
-            <div class="row justify-content-center row-cols-2 row-cols-md-3 row-cols-lg-6 mt-4 gy-4 tools-container" data-aos="fade-down" data-aos-delay="200">
-                <div class="col">
-                    <div class="tool">
-                        <img class="tool-image" src="/assets/images/tools/vscode.svg" alt="VSCode">
-                        <p class="tool-name">VSCode</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="tool">
-                        <img class="tool-image" src="/assets/images/tools/github.svg" alt="Github">
-                        <p class="tool-name">Github</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="tool">
-                        <img class="tool-image" src="/assets/images/tools/canva.svg" alt="Canva">
-                        <p class="tool-name">Canva</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="tool">
-                        <img class="tool-image" src="/assets/images/tools/Figma.svg" alt="Figma">
-                        <p class="tool-name">Figma</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="tool">
-                        <img class="tool-image" src="/assets/images/tools/ChatGPT.svg" alt="ChatGPT">
-                        <p class="tool-name">ChatGPT</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="tool">
-                        <img class="tool-image" src="/assets/images/tools/Gemini.svg" alt="Gemini">
-                        <p class="tool-name">Gemini</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Timelines 
-    <section id="timelines">
-        <div class="container">
-            <h6 class="text-center"><span class="btn btn-sm theme-button theme-text">What am Doing?</span></h6>
-            <h2 class="section-heading text-center">Timelines</h2>
-            <div class="row justify-content-center row-cols-2 row-cols-md-3 row-cols-lg-6 skills-container">
-                <div class="col">
-                </div>
-            </div>
-        </div>
-    </section> -->
-            
-
-    <!-- Projects -->
-    <section id="projects">
-        <div class="container">
-            <h6 class="text-center"><span class="btn btn-sm theme-button theme-text">What I've done?</span></h6>
-            <h2 class="section-heading text-center">Projects</h2>
-            <div class="row justify-content-center mt-4 gy-4" data-aos="fade-up" data-aos-delay="200">
-                <div class="col-lg-4 col-md-6">
-                    <div class="card project-card">
-                        <div class="card-body">
-                            <div class="d-flex align-items-center">
-                                <div class="col-2">
-                                    <img src="/assets/images/projects/unicord-icon.png" class="img-fluid icon" alt="PfpFinder Logo">
-                                </div>
-                                <div class="col-7 p-0">
-                                    <a href="https://umerbazaar.pk/" class="card-title title" target="_blank">Umer Bazaar Pk</a>
-                                    <p class="stacks m-0">HTML | CSS | BS | JS + NodeJS</p>
-                                </div>
-                                <div class="col-3 align-middle">
-                                    <a href="https://umerbazaar.pk/" class="btn btn-sm primary-bg-btn rounded-5" target="_blank">Visit <i class="bi bi-arrow-up-right-circle-fill"></i></a>
-                                </div>
-                            </div>
+                <div class="edu-content">
+                    <div class="edu-header">
+                        <div>
+                            <h3>Bachelor of Science in Computer Science</h3>
+                            <p class="edu-school">Bahria University, Islamabad, Pakistan</p>
                         </div>
-                        <div class="description-container">
-                            <p class="description">Ecommerce website for selling local products. It was my first project by local client</p>
-                        </div>
-                        <div class="banner-container">
-                            <div class="overlay">
-                                <a href="https://umerbazaar.pk/" class="btn" target="_blank"><i class="bi bi-arrow-up-right-circle-fill"></i></a>
-                            </div>
-                            <img src="/assets/images/projects/umerbazaar.png" class="card-img-top banner" alt="PfpFinder Banner">
-                        </div>
+                        <span class="edu-date">Expected Feb 2027</span>
                     </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="card project-card">
-                        <div class="card-body">
-                            <div class="d-flex align-items-center">
-                                <div class="col-2">
-                                    <img src="/assets/images/projects/bikekart-icon.png" class="img-fluid icon" alt="BikeKart Template Logo">
-                                </div>
-                                <div class="col-7 p-0">
-                                    <a href="https://sayyedcoding.github.io/BikeKart/" class="card-title title" target="_blank">BikeKart</a>
-                                    <p class="stacks m-0">HTML | CSS</p>
-                                </div>
-                                <div class="col-3 align-middle">
-                                    <a href="https://sayyedcoding.github.io/BikeKart/" class="btn btn-sm primary-bg-btn rounded-5" target="_blank">Visit <i class="bi bi-arrow-up-right-circle-fill"></i></a>
-                                </div>
-                            </div>
+                    <div class="edu-highlights">
+                        <div class="edu-highlight">
+                            <i class="fas fa-award"></i>
+                            <span>Microsoft Learn Student Ambassador (MLSA) — Mentor & Workshop Facilitator</span>
                         </div>
-                        <div class="description-container">
-                            <p class="description">BikeKart is just another bike store web template with mulitple sections.</p>
+                        <div class="edu-highlight">
+                            <i class="fas fa-book"></i>
+                            <span>Web Engineering, Artificial Intelligence, Database Systems, DSA</span>
                         </div>
-                        <div class="banner-container">
-                            <div class="overlay">
-                                <a href="https://sayyedcoding.github.io/BikeKart/" class="btn" target="_blank"><i class="bi bi-arrow-up-right-circle-fill"></i></a>
-                            </div>
-                            <img src="/assets/images/projects/bikekart-banner.png" class="card-img-top banner" alt="BikeKart Banner">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="card project-card">
-                        <div class="card-body">
-                            <div class="d-flex align-items-center">
-                                <div class="col-2">
-                                    <img src="/assets/images/projects/unicord-icon.png" class="img-fluid icon" alt="BikeKart Template Logo">
-                                </div>
-                                <div class="col-7 p-0">
-                                    <a href="https://sayyedcoding.github.io/unicord-project-discord-like-web-app/" class="card-title title" target="_blank">Unicord</a>
-                                    <p class="stacks m-0">HTML | CSS | JS</p>
-                                </div>
-                                <div class="col-3 align-middle">
-                                    <a href="https://sayyedcoding.github.io/unicord-project-discord-like-web-app/" class="btn btn-sm primary-bg-btn rounded-5" target="_blank">Visit <i class="bi bi-arrow-up-right-circle-fill"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="description-container">
-                            <p class="description">Unicord is discord like web app where major universities in Islamabad can share there news .Only Frontend</p>
-                        </div>
-                        <div class="banner-container">
-                            <div class="overlay">
-                                <a href="https://sayyedcoding.github.io/unicord-project-discord-like-web-app/" class="btn" target="_blank"><i class="bi bi-arrow-up-right-circle-fill"></i></a>
-                            </div>
-                            <img src="/assets/images/projects/unicord.png" class="card-img-top banner" alt="BikeKart Banner">
-                        </div>
-                    </div>
-                </div>
-
-               
-    </section>
-
-    <!-- Testimonials -->
-    <section id="testimonials">
-        <div class="container">
-            <h6 class="text-center"><span class="btn btn-sm theme-button theme-text">What they Think?</span></h6>
-            <h2 class="section-heading text-center">Testimonials</h2>
-            <p class="text-center muted-text mt-3 mb-4">What do my friends and clients say about me.</p>
-            <div class="row mt-4 gy-4" data-aos="fade-down" data-aos-delay="200">
-                <div class="col-md-12">
-                    <div id="testimonial-slider" class="owl-carousel">
-                        <div class="testimonial">
-                            <p class="description">
-                                Your brilliance is truly inspiring. You bring so much positivity and creativity wherever you go. Keep shining brightly! Working with you has been always an incredible experience.
-                            </p>
-                            <div class="pic">
-                                <img src="/assets/images/testimonials/Moinudeen.webp" alt="Moinudeen Pic">
-                            </div>
-                            <div class="detail">
-                                <h4 class="name">Moinudeen</h4>
-                                <small class="role" >Programmer</small>
-                            </div>
-                        </div>
-         
-                        <div class="testimonial">
-                            <p class="description">
-                                Bro, I admire your hard work. Your efforts speak volumes about you. You're amazing! Much love, bro! 🤜🤛
-                            </p>
-                            <div class="pic">
-                                <img src="/assets/images/testimonials/Nadeem.webp" alt="Nadeem Pic">
-                            </div>
-                            <div class="detail">
-                                <h4 class="name">Nadeem</h4>
-                                <small class="role">Friend</small>
-                            </div>
-                        </div>
-
-                       <div class="testimonial">
-                            <p class="description">
-                                Taha's commitment and hard work shine through in everything he does.
-                            </p>
-                            <div class="pic">
-                                <img src="/assets/images/testimonials/J.svg" alt="Jwala Pratap Pic" class="">
-                            </div>
-                            <div class="detail">
-                                <h4 class="name">Hassam Cheema</h4>
-                                <small class="role">Web Developer</small>
-                            </div>
-                        </div>
-
-                        <div class="testimonial">
-                            <p class="description">
-                                Working with Taha has been an incredible experience. His dedication in web development truly shine through his work. He has a remarkable ability to turn ideas into reality & crafting websites that exceed expectations.
-                            </p>
-                            <div class="pic">
-                                <img src="/assets/images/testimonials/Rahul.webp" alt="Rahul Pic">
-                            </div>
-                            <div class="detail">
-                                <h4 class="name">Rahul Sharma</h4>
-                                <small class="role">Software Developer</small>
-                            </div>
+                        <div class="edu-highlight">
+                            <i class="fas fa-laptop-code"></i>
+                            <span>Web/Multimedia Management & Computer Information Sciences</span>
                         </div>
                     </div>
                 </div>
@@ -482,128 +758,106 @@
         </div>
     </section>
 
-    <!-- Blogs -->
-  <!--  <section id="blogs">
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
         <div class="container">
-            <h6 class="text-center"><span class="btn btn-sm theme-button theme-text">Do I Write?</span></h6>
-            <h2 class="section-heading text-center">My Blogs</h2>
-            <p class="text-center muted-text mt-3 mb-4">From tech tips to gaming guides, here are some written pieces that you can check out if you're interested.</p>
-            <div class="row justify-content-center gy-4" data-aos="fade-up" data-aos-delay="600">
-                <div class="col-lg-4 col-md-6">
-                    <div class="card article-card">
-                        <div class="banner-container position-relative">
-                            <div class="position-absolute top-0 end-0">
-                                <span class="badge">Gaming</span>
-                            </div>
-                            <img src="https://gamesroid.com/wp-content/uploads/2023/10/How-to-Update-Township.webp" class="card-img-top banner" alt="How to Update Township Game">
-                        </div>                        
-                        <div class="card-body">
-                            <a href="https://gamesroid.com/how-to-update-township-game/"></a><h6 class="card-title">How to Update Township Game – Guide for Every Platform!</h6></a>
-                            <p class="card-text description">Keep your Township updated and experience all the latest features.</p>
-                            <a href="https://gamesroid.com/how-to-update-township-game/" class="text-decoration-none" target="_blank"><span class="read-more">Read More <i class="bi bi-arrow-up-right"></i></span></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="card article-card">
-                        <div class="banner-container position-relative">
-                            <div class="position-absolute top-0 end-0">
-                                <span class="badge">Gaming</span>
-                            </div>
-                            <img src="https://gamesroid.com/wp-content/uploads/2023/09/Popular-Mobile-Games.webp" class="card-img-top banner" alt="Most Popular Mobile Games in India">
-                        </div>                        
-                        <div class="card-body">
-                            <a href="https://gamesroid.com/most-popular-mobile-games-in-india/"></a><h6 class="card-title">Most Popular Mobile Games in India- Android & iOS </h6></a>
-                            <p class="card-text description">Find out the top trendiest and most popular mobile games in India!</p>
-                            <a href="https://gamesroid.com/most-popular-mobile-games-in-india/" class="text-decoration-none" target="_blank"><span class="read-more">Read More <i class="bi bi-arrow-up-right"></i></span></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="card article-card">
-                        <div class="banner-container position-relative">
-                            <div class="position-absolute top-0 end-0">
-                                <span class="badge">Gaming</span>
-                            </div>
-                            <img src="https://gamesroid.com/wp-content/uploads/2024/01/Discord-Banners.webp" class="card-img-top banner" alt="Best Discord Banners and GIFs">
-                        </div>                        
-                        <div class="card-body">
-                            <a href="https://gamesroid.com/best-discord-banners/"></a><h6 class="card-title">100+ Best Discord Banners and GIFs</h6></a>
-                            <p class="card-text description">From anime, to aesthetics, cuteness to coolness, static to animated there's a for you.</p>
-                            <a href="https://gamesroid.com/best-discord-banners/" class="text-decoration-none" target="_blank"><span class="read-more">Read More <i class="bi bi-arrow-up-right"></i></span></a>
-                        </div>
-                    </div>
-                </div>
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag"><span class="tag-icon"><i class="fas fa-envelope"></i></span> Contact</span>
+                <h2 class="section-title">Let's Connect</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Have a project in mind or just want to say hello? I'd love to hear from you.</p>
             </div>
-        </div>
-    </section>
-    -->
-
-    <!-- Contact -->
-    <section id="contact">
-        <div class="container">
-            <h6 class="text-center"><span class="btn btn-sm theme-button theme-text">What's next!</span></h6>
-            <h2 class="section-heading text-center">Get In Touch</h2>
-            <p class="text-center muted-text mt-3 mb-4">Interested in working together? We should schedule a time to chat. I'll bring the coffee.</p>
-            <div class="row justify-content-center" data-aos="fade-down" data-aos-delay="500">
-                <div class="col-lg-8">
-                    <div class="contact-form">
-                        <form action="https://api.web3forms.com/submit" method="POST">
-
-                            <div class="row g-2">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <input type="hidden" name="access_key" value="3479c888-280f-4638-b2c2-fbe91108d949">
-                                        <input type="text" class="form-control" id="name" name="name" placeholder="Name *" required>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" id="email" name="email" placeholder="Email *" required>
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="subject" name="subject"  placeholder="Subject *" required>
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <textarea style="resize: none;" class="form-control" id="message" name="message" rows="5" placeholder="Your message *" required></textarea>
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <button type="submit" class="btn primary-bg-btn mt-2">Send Message <i class="bi bi-arrow-up-right"></i></button>
-                                </div>
-                            </div>
-                        </form>
+            <div class="contact-grid">
+                <div class="contact-info" data-animate="fade-right">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:sayyedtaha02@gmail.com">sayyedtaha02@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <a href="tel:+923325228332">+92 332 5228332</a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Location</h4>
+                            <span>Rawalpindi, Punjab, Pakistan</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/sayyed-taha-3a3647281" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-link">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/sayyedcoding" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100037224864236" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="social-link">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/_sayyedtaha" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="mailto:sayyedtaha02@gmail.com" aria-label="Email" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
                     </div>
                 </div>
+                <form class="contact-form" id="contactForm" data-animate="fade-left">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder=" " required autocomplete="name">
+                        <label for="name">Your Name</label>
+                        <div class="form-line"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder=" " required autocomplete="email">
+                        <label for="email">Your Email</label>
+                        <div class="form-line"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder=" " required>
+                        <label for="subject">Subject</label>
+                        <div class="form-line"></div>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="4" placeholder=" " required></textarea>
+                        <label for="message">Your Message</label>
+                        <div class="form-line"></div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg btn-full">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer id="footer">
+    <footer class="footer">
         <div class="container">
-            <p class="text-center copyright-text">Made with <span>Bootstrap, HTML, CSS, JS</span> and a dash of <span class="heart-icon"><i class="bi bi-hearts"></i></span> by <span>Sayyed Taha</span>.</p>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-dot"></span> Sayyed<span class="logo-accent" style="-webkit-text-fill-color:unset;background:none;color:var(--accent-light);">Taha</span>
+                </div>
+                <p>Crafting digital experiences with code & creativity.</p>
+                <div class="footer-divider"></div>
+                <p class="footer-copyright">&copy; 2026 Sayyed Taha. All rights reserved.</p>
+            </div>
         </div>
     </footer>
 
-    <button class="btn" id="backToTopButton" onclick="scrollToTop()" style="display: none;">
-        <span aria-label="Back to top">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-square" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm8.5 9.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"/>
-              </svg>
-        </span>
-    </button>
-
-    <!-- JavaScript -->
-    <script src="assets/js/aos.js" defer></script>
-    <script src="assets/js/jquery-3.7.1.min.js" defer></script>
-    <script src="assets/js/owl.carousel.min.js" defer></script>
-    <script src="assets/js/bootstrap.min.js" defer></script>
-    <script src="assets/js/script.js" defer></script>
-
+    <script src="script.js"></script>
 </body>
 </html>
